@@ -1,4 +1,5 @@
 # OpenSpec Zed Extension
+Greetings my fellow Rustaceans and sympathizers, I have a treat for you :}
 
 This Zed extension provides OpenSpec slash commands for the Zed Assistant, allowing you to use OpenSpec workflows directly within the Zed editor.
 
@@ -27,7 +28,7 @@ This extension supports all OpenSpec slash commands:
 
 1. Clone this repository to your Zed extensions directory:
    ```bash
-   git clone https://github.com/OpenSpec/OpenSpec-Zed ~/.config/zed/extensions/openspec
+   git clone https://github.com/Uwzis/OpenSpec-Zed ~/.config/zed/extensions/openspec
    ```
 
 2. (Optional) Install OpenSpec globally for manual use:
@@ -74,10 +75,4 @@ This extension is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Contributions are welcome! Please feel free to submit a Pull Request. I am not your maid, clean your code...
