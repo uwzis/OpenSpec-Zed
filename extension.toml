@@ -1,0 +1,51 @@
+id = "openspec-zed"
+name = "OpenSpec Commands"
+version = "0.0.1"
+schema_version = 1
+authors = ["Evan Moore - Open Prem"]
+description = "OpenSpec slash commands for Zed Assistant"
+repository = "https://github.com/Uwzis/OpenSpec-Zed"
+
+[slash_commands.propose]
+description = "Create a new change and generate planning artifacts"
+requires_argument = false
+
+[slash_commands.explore]
+description = "Explore ideas and investigate problems"
+requires_argument = false
+
+[slash_commands.new]
+description = "Start a new change scaffold"
+requires_argument = true
+
+[slash_commands.continue]
+description = "Create the next artifact in the dependency chain"
+requires_argument = true
+
+[slash_commands.ff]
+description = "Fast-forward: create all planning artifacts"
+requires_argument = true
+
+[slash_commands.verify]
+description = "Validate implementation matches artifacts"
+requires_argument = true
+
+[slash_commands.sync]
+description = "Merge delta specs into main specs"
+requires_argument = true
+
+[slash_commands.apply]
+description = "Implement tasks from the active change"
+requires_argument = true
+
+[slash_commands.archive]
+description = "Archive a completed change"
+requires_argument = true
+
+[slash_commands.bulk-archive]
+description = "Archive multiple completed changes"
+requires_argument = false
+
+[slash_commands.onboard]
+description = "Guided tutorial through OpenSpec workflow"
+requires_argument = false
